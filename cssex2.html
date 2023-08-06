@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+    <link rel="stylesheet" type="text/css" href="css2.css">
+</head>
+<body>
+    
+        <form>
+
+    <h1>STUDENT REGISTRATION FORM</h1>
+    
+    <table>
+    <tr>
+        <td><label for="name">NAME</label></td> 
+        <td><input type="text" placeholder="ENTER FULL NAME" name="name" id="name"></td>
+    </tr>
+    <tr>
+        <td><label>FATHERS NAME</label></td>
+        <td><input type="text" name="father name" id="name"></td>
+    </tr>
+    <tr>
+        <td><label>MOTHERS NAME</label></td>
+        <td><input type="text" name="motherher name" id="name"></td>
+    </tr>
+    <tr>
+        <td><label>PHONE NUMBER</label></td>
+        <td><input type="tel" name="number" id="number" pattern="[0-9]{10}"></td>
+    </tr>
+    <tr>
+        <td><label>EMAIL</label></td>
+        <td><input type="email"></td>
+    </tr>
+    <tr>
+       <td><label>GENDER</label></td>
+       <td><input type="radio" name="gen">male
+       <input type="radio" name="gen">female
+       <input type="radio" name="gen">others</td>
+    </tr>
+    <tr>
+        <td><label>DATE OF BIRTH</label></td>
+        <td><input type="text" size="2">
+            <input type="text" size="2">
+            <input type="text" size="2">
+            <label>(dd//mm//yyyy)</label></td>
+    </tr>
+    <tr>
+        <td><label>ADDRESS</label></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td><label>BLOOD GROUP</label></td>
+        <td>
+            <select name="blood group" id="blood group">
+                <option value="blood group"></option>
+                <option value="blood group">o+</option>
+                <option type="blood group">a+</option>
+            
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><label>DEPARTMENT</label></td>
+        <td><input type="radio" name="department">CSE
+        <input type="radio" name="department">EEE
+        <input type="radio" name="department">BBA</td>
+     </tr>
+     <tr>
+        <td><label>COURSES</label></td>
+        <td><input type="checkbox" name="courses">c
+        <input type="checkbox" name="courses">c++
+        <input type="checkbox" name="courses">Java</td>
+     </tr>
+     <tr>
+        <td><label>PHOTO</label></td>
+        <td><input type="file"></td>
+     </tr>
+     <tr>
+        <td>
+            <input type="submit">
+            <input type="button" value="reset">
+        </td>
+     </tr>
+   
+
+</form>
+</table>
+
+</body>
+</html>

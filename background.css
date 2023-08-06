@@ -1,0 +1,29 @@
+div{
+    text-align: center;
+    background-color: pink;
+    margin:15%;
+    padding:30px;
+    margin-right: 35%;
+    margin-left: 35%;
+    
+    
+    
+}
+body{
+    background-image:url(https://i.pinimg.com/1200x/7e/a9/6b/7ea96bde8084f6d6e1f8ee71360e7179.jpg);
+    background-size:cover;
+    
+}
+input[type="text"]
+{
+    background-clip: border-box;
+    }
+.submit{
+    width:70px;
+    margin-left: 50px;
+    background-clip: border-box;
+    background-image: linear-gradient(pink,violet);
+}
+h1{
+    margin-left: 40px;
+}

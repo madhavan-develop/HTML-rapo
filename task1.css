@@ -1,0 +1,47 @@
+    body{
+       text-align:center;
+        background-image: linear-gradient(rgb(116, 23, 116),rgb(197, 24, 53));
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 540px ;
+        
+        
+    }
+    .continue{
+        width:180px;
+        background-image: linear-gradient(rgb(116,23,116),rgb(197, 24, 53));
+        padding: 10px;
+    }   
+   div{
+    margin-top: 8%;
+    background-color: white;
+    margin-left:30%;
+    margin-right: 30%;
+    padding-bottom: 30px;
+   }
+   .input{
+    border:none;
+    border-bottom: 1px solid;
+    padding: 10px; 
+   }
+   .password{
+    border:none;
+    border-bottom: 1px solid;
+    padding: 10px;
+   }
+   .twitter{
+    width: 180px;
+    background-color: skyblue;
+    padding: 10px;
+   }
+   .facebook{
+    width:180px;
+    background-color: blue;
+    padding:10px;
+   }
+   .login{
+    text-align: start;
+    font-size:28px;
+    padding-top: 30px;
+    padding: 10px;
+   }

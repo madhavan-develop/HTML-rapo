@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student registration form</title>
+    <link rel="stylesheet" type="text/css" href="css5.css">
+</head>
+<body>
+    <table>
+        <form>
+            <tr><td><label>first name</label></td>
+            <td><input type="text">
+                <label>(max 50 charactetrs allowed)</label></td>
+            </tr>
+            <tr><td><label>last name</label></td>
+                <td><input type="text">
+                    <label>(max 50 charactetrs allowed)</label></td>
+                </tr>
+                <tr>
+                    <td><label>email</label></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label>mobile number</label></td>
+                    <td><input type="number" name="mobilenumber" id="number" pattern="[0-9]{10}"">
+                        <label>(10 charactetrs allowed)</label></td>
+                </tr>
+                    <td><label>gender</label></td>
+                    <td><input type="radio" name="gen">male
+                        <input type="radio" name="gen">female</td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth</label></td>
+                    <td><select name="day" id="day">
+                        <option value="day">day</option>
+                        <option value="day">1</option>
+                        </select>
+                      <select name="month" id="day">
+                        <option value="month">month</option>
+                        <option value="month">1</option>
+                        </select>
+                    <select name="year" id="year">
+                        <option value="year">year</option>
+                        <option value="year">2000</option></td>
+                        </select>
+                     <tr>
+                        <td><label>ADDRESS</label></td>
+                        <td><textarea row="15" col="7"></textarea></td>
+                     </tr>
+                     <tr>
+                        <td>
+                            <label>city</label>
+                        </td>
+                        <td><input type="text">
+                            <label>(min 50 charactetrs allowed)</label></td>
+                     </tr>
+                     <tr>
+                        <td><label>pincode</label></td>
+                        <td><input type="text"></td>
+                     </tr>
+                     <tr>
+                        <td><label>state</label></td>
+                        <td><input type="text"></td>
+                     </tr>
+                     <tr>
+                        <td><label>country</label></td>
+                        <td><input type="text"></td>
+                     </tr>
+                     <tr><td><label>hobbies</label></td>
+                     <td><input type="checkbox">drawing
+                        <input type="checkbox">singing
+                        <input type="checkbox">dancing
+                        <input type="checkbox">sketching<br>
+                        <input type="checkbox">others 
+                            <input type="text">
+                            <label>(max 50 charactetrs allowed)</label></td>
+                            </tr>
+                            <tr>
+                                <td rowspan="6"><label>Qualification</label></td></tr>
+                               <tr><td><input type="checkbox">high school(10th)</td></tr>
+                               <tr><td><input type="checkbox">higher school(12th)</td></tr>
+                               <tr><td><input type="checkbox">graduation(bachelors)</td></tr>
+                                <tr><td><input type="checkbox">post graduation(masters)</td></tr>
+                                <tr><td><input type="checkbox">phd</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="9"><label>course applied for</label></td></tr>
+                               <tr><td><input type="checkbox">BCA</td></tr>
+                               <tr><td><input type="checkbox">B.COM</td></tr>
+                               <tr><td><input type="checkbox">BSC.,</td></tr>
+                                <tr><td><input type="checkbox">B.A</td></tr>
+                                <tr><td><input type="checkbox">MCA</td></tr>
+                                <tr><td><input type="checkbox">M.COM</td></tr>
+                               <tr><td><input type="checkbox">MSC.,</td></tr>
+                                <tr><td><input type="checkbox">M.A</td>
+                            </tr>    
+                            <tr>
+                               <td id="new"><input type="submit">
+                                    <input type="button" value="reset"></td>
+                            </tr>
+                                
+
+                            
+                            
+
+        </form>
+    </table>
+</body>
+</html>
